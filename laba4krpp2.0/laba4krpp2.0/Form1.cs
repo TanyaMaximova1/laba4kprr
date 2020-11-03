@@ -22,7 +22,7 @@ namespace laba4krpp2._0
 
             int x = Convert.ToInt32(textBox1.Text);
             int y = Convert.ToInt32(textBox2.Text);
-            textBox3.Text = $"cos {x} = " + Math.Log();
+            textBox3.Text = $"log {x} по основанию {y} = " + Math.Log(x, y);
 
         }
     }
